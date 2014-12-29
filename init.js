@@ -7,7 +7,7 @@ var init = {
 		},
 		{ 
 			text: 'Docs',
-			link: 'https://github.com/sankha93/grite/wiki/Documentation'
+			link: 'https://github.com/Gioyik/Blist/blob/master/Readme.md'
 		} 
 	],
 	posts: [ 
