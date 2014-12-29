@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Blist: A blog powered by gists</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-  </head>
-  <body>
-  </body>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Bootstrap files -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+
+		<!-- Blist CSS lib -->
+		<link href="css/blist.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="loader">Loading ...</div>
+		<div class="container">
+			<h1 id="title"></h1>
+			<div id="navbar"></div>
+			<div id="content"></div>
+			<div id="posts"></div>
+			<a id="old-posts">Old Posts</a>
+
+			<!-- Footer -->
+			<div class="footer">
+				<div id="footer-text"></div>
+				<div id="footer-grite">Powered by <a href="http://github.com/Gioyik/Blist">Blist</a>.</div>
+			</div>
+		</div>
+
+		<!-- Core Libs -->
+		<script src="js/jquery.js"></script>
+		<script src="js/marked.js"></script>
+
+		<!-- init the blog config -->
+		<script src="init.js"></script>
+
+		<!-- Blist JS lib -->
+		<script src="js/blist.js"></script>
+	</body>
 </html>
