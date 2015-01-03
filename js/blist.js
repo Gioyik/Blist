@@ -53,10 +53,6 @@ function loadFooter() {
   $('#footer-text').html(init.footerText);
 }
 
-function test() {
-  alert("nicolas es un tonto");
-}
-
 function loadOlder() {
   createPlaceholders();
   loadPosts();
