@@ -17,9 +17,6 @@ There are basic arguments to start with Blist:
 
 ```bash
 $ blist new [options] <PATH>    Creates a new Blist site scaffold in PATH
-$ blist watch [options]         Watch the changes locally
-$ blist git                     Setup git repository
-$ blist deploy [options]        Deploy to GitHub
 ```
 
 Display command help:

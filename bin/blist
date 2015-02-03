@@ -13,27 +13,7 @@ var path = function(file) {
 blist
   .command('new <PATH>')
   .description('Creates a new Blist site scaffold in PATH')
-  .option('-B, --no-bundle', 'Do not run bundle install')
   .action(require(path('new')))
-
-blist
-  .command('watch')
-  .description('Watch the changes locally')
-  .option('-o, --open', 'Open the website using your default browser')
-  .option('-p, --port <PORT>', 'Port to listen on')
-  .option('-D, --no-drafts', 'Excludes the drafts')
-  .action(require(path('watch')))
-
-blist
-  .command('git')
-  .description('Setup git repository')
-  .action(require(path('git')))
-
-blist
-  .command('deploy')
-  .description('Deploy to GitHub')
-  .option('-m <MESSAGE>', 'Use the given MESSAGE as the commit message.', ':u7121:')
-  .action(require(path('deploy')))
 
 blist.parse(process.argv)
 
